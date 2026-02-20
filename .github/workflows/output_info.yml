@@ -8,5 +8,5 @@ jobs:
     steps:
       - name: Output Github Context
         run: echo "${{ toJson(github) }}"
-      - name: Output env Context
-        run: echo "${{ toJson(env) }}"
+      - name: Output runner Context 
+        run: echo "${{ toJson(runner) }}"
